@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: pinterest-video-downloader-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /
